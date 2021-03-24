@@ -1,10 +1,12 @@
 <?php
 // Heading
-$_['heading_title']    = 'OpenCart Marketplace API';
+//replace name
+$_['heading_title']    = 'myOpenCart Marketplace API';
 
 // Text
 $_['text_success']     = 'Success: You have modified your API information!';
-$_['text_signup']      = 'Please enter your OpenCart API information which you can obtain <a href="https://www.opencart.com/index.php?route=account/store" target="_blank" class="alert-link">here</a>.';
+//replace name
+$_['text_signup']      = 'Please enter your myOpenCart API information which you can obtain <a href="https://www.opencart.com/index.php?route=account/store" target="_blank" class="alert-link">here</a>.';
 
 // Entry
 $_['entry_username']   = 'Username';

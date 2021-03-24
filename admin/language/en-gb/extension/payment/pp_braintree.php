@@ -147,7 +147,8 @@ $_['entry_3ds_unable_to_auth'] 			= 'Unable To Authenticate<br />Default: Accept
 $_['entry_3ds_error'] 					= 'Authentication Error<br />Default: Accept';
 
 // Help
-$_['help_settlement_type']			 	= 'Immediate will Submit For Settlement straight away. Deferred will set the transaction to Authorized and the merchant must Submit For Settlement manually in the OpenCart order details.';
+//change opencart name
+$_['help_settlement_type']			 	= 'Immediate will Submit For Settlement straight away. Deferred will set the transaction to Authorized and the merchant must Submit For Settlement manually in the myOpenCart order details.';
 $_['help_card_vault']				 	= 'Allow customer to remember their card';
 $_['help_paypal_vault']				 	= 'Allow customer to remember their PayPal account';
 $_['help_card_check_vault']			 	= 'The checkbox for card vault is already checked when the page loads';

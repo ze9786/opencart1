@@ -48,7 +48,8 @@ $_['text_cron_email_status']                            = 'Send e-mail summary:'
 $_['text_customer_notifications']                       = 'Customer notifications';
 $_['text_debug_disabled']                               = 'Disabled'; 
 $_['text_debug_enabled']                                = 'Enabled'; 
-$_['text_debug_help']                                   = 'API requests and responses will be logged in the OpenCart error log. Use this for only for debugging and development purposes.';
+//replace name
+$_['text_debug_help']                                   = 'API requests and responses will be logged in the myOpenCart error log. Use this for only for debugging and development purposes.';
 $_['text_debug_label']                                  = 'Debug Logging';
 $_['text_delay_capture_help']                           = 'Only authorize transactions or perform charges automatically';
 $_['text_delay_capture_label']                          = 'Transaction type';

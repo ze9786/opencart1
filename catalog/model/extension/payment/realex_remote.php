@@ -61,7 +61,8 @@ class ModelExtensionPaymentRealexRemote extends Model {
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, "https://epage.payandshop.com/epage-3dsecure.cgi");
 		curl_setopt($ch, CURLOPT_POST, 1);
-		curl_setopt($ch, CURLOPT_USERAGENT, "OpenCart " . VERSION);
+		//replace name
+		curl_setopt($ch, CURLOPT_USERAGENT, "myOpenCart " . VERSION);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -109,7 +110,8 @@ class ModelExtensionPaymentRealexRemote extends Model {
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, "https://epage.payandshop.com/epage-3dsecure.cgi");
 		curl_setopt($ch, CURLOPT_POST, 1);
-		curl_setopt($ch, CURLOPT_USERAGENT, "OpenCart " . VERSION);
+		//replace anme
+		curl_setopt($ch, CURLOPT_USERAGENT, "myOpenCart " . VERSION);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -143,7 +145,8 @@ class ModelExtensionPaymentRealexRemote extends Model {
 			$xml .= '<orderid>' . $order_ref . '</orderid>';
 			$xml .= '<amount currency="' . $currency . '">' . $amount . '</amount>';
 			$xml .= '<comments>';
-				$xml .= '<comment id="1">OpenCart</comment>';
+	//replace name
+				$xml .= '<comment id="1">myOpenCart</comment>';
 			$xml .= '</comments>';
 			$xml .= '<card>';
 				$xml .= '<number>' . $card_number . '</number>';
@@ -223,7 +226,8 @@ class ModelExtensionPaymentRealexRemote extends Model {
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, "https://epage.payandshop.com/epage-remote.cgi");
 		curl_setopt($ch, CURLOPT_POST, 1);
-		curl_setopt($ch, CURLOPT_USERAGENT, "OpenCart " . VERSION);
+		//replace name
+		curl_setopt($ch, CURLOPT_USERAGENT, "myOpenCart " . VERSION);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
