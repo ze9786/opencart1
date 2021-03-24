@@ -66,7 +66,7 @@ function usage() {
 		'--db_hostname', 'localhost',
 		'--db_username', 'root',
 		'--db_password', 'pass',
-		'--db_database', 'opencart',
+		'--db_database', 'Opencart',
 		'--db_driver', 'mysqli',
 		'--db_port', '3306',
 		'--username', 'admin',
@@ -144,7 +144,8 @@ function install($options) {
 function check_requirements() {
 	$error = null;
 	if (phpversion() < '7.3') {
-		$error = 'Warning: You need to use PHP7.3+ or above for OpenCart to work!';
+		//rename
+		$error = 'Warning: You need to use PHP7.3+ or above for myOpenCart to work!';
 	}
 
 	if (!ini_get('file_uploads')) {
@@ -152,27 +153,33 @@ function check_requirements() {
 	}
 
 	if (ini_get('session.auto_start')) {
-		$error = 'Warning: OpenCart will not work with session.auto_start enabled!';
+				//rename
+		$error = 'Warning: myOpenCart will not work with session.auto_start enabled!';
 	}
 
 	if (!extension_loaded('mysqli')) {
-		$error = 'Warning: MySQLi extension needs to be loaded for OpenCart to work!';
+		//rename
+		$error = 'Warning: MySQLi extension needs to be loaded for myOpenCart to work!';
 	}
 
 	if (!extension_loaded('gd')) {
-		$error = 'Warning: GD extension needs to be loaded for OpenCart to work!';
+		//rename
+		$error = 'Warning: GD extension needs to be loaded for myOpenCart to work!';
 	}
 
 	if (!extension_loaded('curl')) {
-		$error = 'Warning: CURL extension needs to be loaded for OpenCart to work!';
+		//rename
+		$error = 'Warning: CURL extension needs to be loaded for myOpenCart to work!';
 	}
 
 	if (!function_exists('openssl_encrypt')) {
-		$error = 'Warning: OpenSSL extension needs to be loaded for OpenCart to work!';
+		//rename
+		$error = 'Warning: OpenSSL extension needs to be loaded for myOpenCart to work!';
 	}
 
 	if (!extension_loaded('zlib')) {
-		$error = 'Warning: ZLIB extension needs to be loaded for OpenCart to work!';
+		//rename
+		$error = 'Warning: ZLIB extension needs to be loaded for myOpenCart to work!';
 	}
 
 	return array($error === null, $error);
@@ -308,7 +315,7 @@ function write_config_files($options) {
 	$output .= 'define(\'DB_PREFIX\', \'' . addslashes($options['db_prefix']) . '\');' . "\n";
 	$output .= 'define(\'DB_PORT\', \'' . addslashes($options['db_port']) . '\');' . "\n";
 
-	$output .= '// OpenCart API' . "\n";
+	$output .= '// myOpenCart API' . "\n";
 	$output .= 'define(\'OPENCART_SERVER\', \'https://www.opencart.com/\');' . "\n";
 
 
@@ -351,7 +358,8 @@ case "install":
 			exit(1);
 		}
 		install($options);
-		echo "SUCCESS! Opencart successfully installed on your server\n";
+		//rename
+		echo "SUCCESS! myOpencart successfully installed on your server\n";
 		echo "Store link: " . $options['http_server'] . "\n";
 		echo "Admin link: " . $options['http_server'] . "admin/\n\n";
 	} catch (ErrorException $e) {
