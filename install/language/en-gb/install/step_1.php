@@ -4,7 +4,7 @@ $_['heading_title'] = 'License agreement';
 
 // Text
 //replace name
-$_['text_step_1']   = 'Please read the myOpenCart licence agreement';
+$_['text_step_1']   = 'Please read the iTechDataHK licence agreement';
 $_['text_terms']    = '<h3>GNU GENERAL PUBLIC LICENSE</h3>
 <p>Version 3, 29 June 2007</p>
 <p>Copyright &copy; 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;</p>

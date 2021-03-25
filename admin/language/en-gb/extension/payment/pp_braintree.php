@@ -148,7 +148,7 @@ $_['entry_3ds_error'] 					= 'Authentication Error<br />Default: Accept';
 
 // Help
 //change opencart name
-$_['help_settlement_type']			 	= 'Immediate will Submit For Settlement straight away. Deferred will set the transaction to Authorized and the merchant must Submit For Settlement manually in the myOpenCart order details.';
+$_['help_settlement_type']			 	= 'Immediate will Submit For Settlement straight away. Deferred will set the transaction to Authorized and the merchant must Submit For Settlement manually in the iTechDataHK order details.';
 $_['help_card_vault']				 	= 'Allow customer to remember their card';
 $_['help_paypal_vault']				 	= 'Allow customer to remember their PayPal account';
 $_['help_card_check_vault']			 	= 'The checkbox for card vault is already checked when the page loads';

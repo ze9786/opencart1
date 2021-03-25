@@ -15,4 +15,4 @@ $_['text_success']   = "<strong>Success:</strong> You have modified advertising!
 
 // Error
 //replace with name
-$_['error_adblock'] = "It looks like you are using an ad blocker. In order to use this Advertising section, please disable your ad blocker for your myOpenCart admin panel.";
+$_['error_adblock'] = "It looks like you are using an ad blocker. In order to use this Advertising section, please disable your ad blocker for your iTechDataHK admin panel.";

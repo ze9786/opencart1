@@ -15,4 +15,4 @@ $_['text_order']        = 'Order History';
 $_['text_wishlist']     = 'Wish List';
 $_['text_newsletter']   = 'Newsletter';
 // replace opencart name
-$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">myOpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">iTechDataHK</a><br /> %s &copy; %s';

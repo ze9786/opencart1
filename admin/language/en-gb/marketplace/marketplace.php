@@ -31,7 +31,7 @@ $_['text_downloaded']    = 'Downloaded';
 $_['text_member_since']  = 'Member since:';
 $_['text_price']         = 'Price';
 //replace name
-$_['text_partner']       = 'Developed by myOpenCart Partner';
+$_['text_partner']       = 'Developed by iTechDataHK Partner';
 $_['text_support']       = '12 Months free support';
 $_['text_documentation'] = 'Documentation Included';
 $_['text_sales']         = 'Sales';
@@ -70,7 +70,7 @@ $_['button_refresh']     = 'Refresh';
 // Error
 $_['error_permission']   = 'Warning: You do not have permission to modify extensions!';
 //replace name
-$_['error_opencart']     = 'Warning: You must enter your myOpenCart API information before you can make any purchases!';
+$_['error_opencart']     = 'Warning: You must enter your iTechDataHK API information before you can make any purchases!';
 $_['error_install']      = 'Extension installation taking place please wait a few seconds before trying to install!';
 $_['error_purchase']     = 'Extension could not be purchased!';
 $_['error_download']     = 'Extension could not be downloaded!';

@@ -145,7 +145,7 @@ function check_requirements() {
 	$error = null;
 	if (phpversion() < '7.3') {
 		//rename
-		$error = 'Warning: You need to use PHP7.3+ or above for myOpenCart to work!';
+		$error = 'Warning: You need to use PHP7.3+ or above for iTechDataHK to work!';
 	}
 
 	if (!ini_get('file_uploads')) {
@@ -154,32 +154,32 @@ function check_requirements() {
 
 	if (ini_get('session.auto_start')) {
 				//rename
-		$error = 'Warning: myOpenCart will not work with session.auto_start enabled!';
+		$error = 'Warning: iTechDataHK will not work with session.auto_start enabled!';
 	}
 
 	if (!extension_loaded('mysqli')) {
 		//rename
-		$error = 'Warning: MySQLi extension needs to be loaded for myOpenCart to work!';
+		$error = 'Warning: MySQLi extension needs to be loaded for iTechDataHK to work!';
 	}
 
 	if (!extension_loaded('gd')) {
 		//rename
-		$error = 'Warning: GD extension needs to be loaded for myOpenCart to work!';
+		$error = 'Warning: GD extension needs to be loaded for iTechDataHK to work!';
 	}
 
 	if (!extension_loaded('curl')) {
 		//rename
-		$error = 'Warning: CURL extension needs to be loaded for myOpenCart to work!';
+		$error = 'Warning: CURL extension needs to be loaded for iTechDataHK to work!';
 	}
 
 	if (!function_exists('openssl_encrypt')) {
 		//rename
-		$error = 'Warning: OpenSSL extension needs to be loaded for myOpenCart to work!';
+		$error = 'Warning: OpenSSL extension needs to be loaded for iTechDataHK to work!';
 	}
 
 	if (!extension_loaded('zlib')) {
 		//rename
-		$error = 'Warning: ZLIB extension needs to be loaded for myOpenCart to work!';
+		$error = 'Warning: ZLIB extension needs to be loaded for iTechDataHK to work!';
 	}
 
 	return array($error === null, $error);
@@ -315,7 +315,7 @@ function write_config_files($options) {
 	$output .= 'define(\'DB_PREFIX\', \'' . addslashes($options['db_prefix']) . '\');' . "\n";
 	$output .= 'define(\'DB_PORT\', \'' . addslashes($options['db_port']) . '\');' . "\n";
 
-	$output .= '// myOpenCart API' . "\n";
+	$output .= '// iTechDataHK API' . "\n";
 	$output .= 'define(\'OPENCART_SERVER\', \'https://www.opencart.com/\');' . "\n";
 
 

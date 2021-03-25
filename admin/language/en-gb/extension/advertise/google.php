@@ -24,7 +24,7 @@ $_['help_condition']                        = 'Tell users about the condition of
 $_['help_cron_email']                       = 'A summary of the CRON task will be sent to this e-mail after completion.';
 $_['help_cron_email_status']                = 'Enable to receive a summary after every CRON task.';
 //replace name
-$_['help_feed']                             = 'If a language or currency is inactive, this means it was not found on your myOpenCart store. To set it up, go to System > Localisation > Languages / Currencies';
+$_['help_feed']                             = 'If a language or currency is inactive, this means it was not found on your iTechDataHK store. To set it up, go to System > Localisation > Languages / Currencies';
 $_['help_gender']                           = 'Specify the gender your product is designed for using the gender attribute. When you provide this information, potential customers can accurately filter products by gender to help narrow their search. Keep in mind that Google also uses the gender information together with the values you provide for Size and Age Group to standardize the sizes that are shown to users.';
 $_['help_google_product_category']          = 'Use the this attribute to indicate the category of your item based on the Google product taxonomy. Categorizing your product helps ensure that your ad is shown with the right search results.';
 $_['help_is_bundle']                        = 'Use the Bundle attribute to indicate that you&apos;ve created a bundle: a main product that you&apos;ve grouped with other, different products, sold together as one package for a single price. This attribute lets Google show your ad in the right situations by distinguishing your item from manufacturer-created bundles, multipacks, and other products without accessories.';
@@ -55,7 +55,7 @@ $_['entry_max_transit_time']                = 'Maximum Transit Time (days)';
 $_['entry_min_transit_time']                = 'Minimum Transit Time (days)';
 $_['entry_multipack']                       = 'Multipack (number of items in a single package)';
 //replace name
-$_['entry_oc_category']                     = 'myOpenCart Category (autocomplete)';
+$_['entry_oc_category']                     = 'iTechDataHK Category (autocomplete)';
 $_['entry_roas']                            = 'ROAS';
 $_['entry_setup_confirmation']              = 'Setup Confirmation';
 $_['entry_size']                            = 'Size Option';
@@ -74,7 +74,7 @@ $_['text_active']                           = 'Active';
 $_['text_active_states']                    = 'Select active states';
 $_['text_add_target']                       = 'New Campaign';
 //replace name
-$_['text_ads_intro']                        = '<h3>Important</h3><p>To have your products accepted by Google Merchant Center, please make sure to follow these requirements:</p><ul><li>Your myOpenCart products must meet the <a href="https://support.google.com/merchants/answer/6149970" target="_blank"><strong>Google Shopping ads policies</strong></a>.</li><li>Please make sure to configure <a href="https://support.google.com/merchants/topic/7293661?hl=en-GB&ref_topic=7259125" target="_blank"><strong>Shipping</strong></a> and <a href="https://support.google.com/merchants/topic/7294266?hl=en-GB&ref_topic=7259125" target="_blank"><strong>Taxes (only in the US)</strong></a> in your Google Merchant Center account, or via this extension from the <a href="%s" target="_blank"><strong>Shipping &amp; Taxes</strong></a> section.</li><li>Refer to the columns <strong>Destination Statuses</strong> and <strong>Item Issues</strong> to resolve any approval issues with your products.</li></ul>';
+$_['text_ads_intro']                        = '<h3>Important</h3><p>To have your products accepted by Google Merchant Center, please make sure to follow these requirements:</p><ul><li>Your iTechDataHK products must meet the <a href="https://support.google.com/merchants/answer/6149970" target="_blank"><strong>Google Shopping ads policies</strong></a>.</li><li>Please make sure to configure <a href="https://support.google.com/merchants/topic/7293661?hl=en-GB&ref_topic=7259125" target="_blank"><strong>Shipping</strong></a> and <a href="https://support.google.com/merchants/topic/7294266?hl=en-GB&ref_topic=7259125" target="_blank"><strong>Taxes (only in the US)</strong></a> in your Google Merchant Center account, or via this extension from the <a href="%s" target="_blank"><strong>Shipping &amp; Taxes</strong></a> section.</li><li>Refer to the columns <strong>Destination Statuses</strong> and <strong>Item Issues</strong> to resolve any approval issues with your products.</li></ul>';
 $_['text_advertise']                        = 'Advertise';
 $_['text_age_group_adult']                  = 'Adult (teens or older)';
 $_['text_age_group_infant']                 = 'Infant (3-12 months old)';
@@ -101,7 +101,7 @@ $_['text_condition_new']                    = 'New';
 $_['text_condition_refurbished']            = 'Refurbished';
 $_['text_condition_used']                   = 'Used';
 //replace name
-$_['text_connect_intro']                    = 'Your Google Shopping extension is not yet connected. Please go to the <a href="%s" target="_blank"><strong>Google Shopping for myOpenCart website</strong></a> to obtain an App ID and App Secret.';
+$_['text_connect_intro']                    = 'Your Google Shopping extension is not yet connected. Please go to the <a href="%s" target="_blank"><strong>Google Shopping for iTechDataHK website</strong></a> to obtain an App ID and App Secret.';
 $_['text_connected']                        = 'Connected with Merchant ID <span class="label label-default">%s</span>';
 $_['text_connecting']                       = 'Connecting...';
 $_['text_connection']                       = 'Connection';
@@ -112,7 +112,7 @@ $_['text_critical']                         = 'Critical';
 $_['text_cron_email']                       = 'Send Summary to E-Mail';
 $_['text_cron_email_status']                = 'Send E-Mail Summary';
 //replace name
-$_['text_cron_info']                        = 'Please make sure to set up a CRON task executing <strong>each hour</strong> using one of the methods below. Method #1 is recommended. CRON jobs help you with:<br /><br />&bull; Periodic syncing of your myOpenCart catalog with Google Merchant Center<br />&bull; Automatic fetching of product statuses and product reports';
+$_['text_cron_info']                        = 'Please make sure to set up a CRON task executing <strong>each hour</strong> using one of the methods below. Method #1 is recommended. CRON jobs help you with:<br /><br />&bull; Periodic syncing of your iTechDataHK catalog with Google Merchant Center<br />&bull; Automatic fetching of product statuses and product reports';
 $_['text_cron_settings']                    = 'CRON Settings';
 $_['text_data_quality_issues']              = 'Data Quality Issues';
 $_['text_debug_log']                        = 'Debug Logging';
@@ -120,7 +120,7 @@ $_['text_destination_status']               = 'Status';
 $_['text_disabled']                         = 'Disabled';
 $_['text_disapproved']                      = 'Disapproved';
 //replace name
-$_['text_disconnect_reminder']              = 'Even if you decide to disconnect this myOpenCart extension, you will still have access to your Merchant Center account. It will not get deleted. Disconnecting will do the following:<ul><li>Disable this extension</li><li>Remove all active campaigns</li><li>Delete all datafeeds in the linked Google Merchant Center account</li><li>Remove any links between your existing Google Merchant Center account and myOpenCart.</li></ul>';
+$_['text_disconnect_reminder']              = 'Even if you decide to disconnect this iTechDataHK extension, you will still have access to your Merchant Center account. It will not get deleted. Disconnecting will do the following:<ul><li>Disable this extension</li><li>Remove all active campaigns</li><li>Delete all datafeeds in the linked Google Merchant Center account</li><li>Remove any links between your existing Google Merchant Center account and iTechDataHK.</li></ul>';
 $_['text_disconnecting_please_wait']        = 'Disconnecting...';
 $_['text_does_not_apply']                   = '-- Does not apply --';
 $_['text_download_debug_log']               = 'Download Debug Log';
@@ -156,16 +156,16 @@ $_['text_learn_more']                       = 'Learn more';
 $_['text_loading_please_wait']              = 'Please wait. This may take a few minutes...';
 $_['text_local_cron']                       = 'Method #1 - CRON Task:';
 //replace name
-$_['text_mapping_intro']                    = 'Select your myOpenCart categories which best match the pre-defined Google categories. This helps Google understand what you\'re selling so that they can better connect your ads with search queries from potential customers. If none of your categories match the list below, just click "Proceed" to skip this step.';
+$_['text_mapping_intro']                    = 'Select your iTechDataHK categories which best match the pre-defined Google categories. This helps Google understand what you\'re selling so that they can better connect your ads with search queries from potential customers. If none of your categories match the list below, just click "Proceed" to skip this step.';
 $_['text_mapping_verify_intro']             = 'Some of your products are already mapped to Google categories. Should the new mapping edit all current products, or should it apply only for your future products?';
 $_['text_mapping_verify_title']             = 'Confirm New Mapping';
 $_['text_maximum_five']                     = 'Maximum 5 campaigns can be selected. Leaving a campaign unticked will <strong>unassign</strong> the products from this campaign.';
 $_['text_merchant_intro']                   = 'Please select the account you wish to use:';
 //replace name
-$_['text_merchant_website_claim']           = '<p>Upon clicking <strong>Proceed</strong>, you will be asked to authorize myOpenCart to manage your listing and account in Google Shopping. Your website URL will be claimed by the selected Merchant Center account.</p>';
+$_['text_merchant_website_claim']           = '<p>Upon clicking <strong>Proceed</strong>, you will be asked to authorize iTechDataHK to manage your listing and account in Google Shopping. Your website URL will be claimed by the selected Merchant Center account.</p>';
 $_['text_na']                               = '&ndash;';
 //replace name
-$_['text_new_merchant']                     = 'Use an account managed by myOpenCart (For beginners who do not have a Google Merchant Center account.)';
+$_['text_new_merchant']                     = 'Use an account managed by iTechDataHK (For beginners who do not have a Google Merchant Center account.)';
 $_['text_no']                               = 'No';
 $_['text_no_results']                       = 'No results found!';
 $_['text_no_targets']                       = 'No campaigns found! Click the button below to add your first campaign.';
@@ -295,7 +295,7 @@ $_['success_target_edit']                   = 'Success! You have edited your cam
 
 // Error
 //replace name
-$_['error_adblock']                         = "It looks like you are using an ad blocker. In order to use GoogleShopping, please disable your ad blocker for your myOpenCart admin panel.";
+$_['error_adblock']                         = "It looks like you are using an ad blocker. In order to use GoogleShopping, please disable your ad blocker for your iTechDataHK admin panel.";
 $_['error_budget']                          = 'Please insert the campaign budget. The value must be numeric and no less than 5.';
 $_['error_campaign_name_in_use']            = 'You are already using a campaign with the same name! Please choose another name.';
 $_['error_campaign_name_total']             = '&quot;Total&quot; is a forbidden name for a campaign! Please choose another name.';

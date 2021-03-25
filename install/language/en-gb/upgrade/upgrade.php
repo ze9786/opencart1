@@ -15,7 +15,7 @@ $_['text_setting']    = 'Goto Admin and Edit the main System Settings. Update al
 $_['text_store']      = 'Load the store front & press Ctrl+F5 twice to force the browser to update the css changes.';
 $_['text_progress']   = 'Patch %s has been applied (%s of %s)';
 //rename
-$_['text_success']    = 'Congratulations! You have successfuly upgraded your myOpenCart installation!';
+$_['text_success']    = 'Congratulations! You have successfuly upgraded your iTechDataHK installation!';
 
 // Entry
 $_['entry_progress']  = 'Progress';

@@ -49,7 +49,7 @@ $_['text_customer_notifications']                       = 'Customer notification
 $_['text_debug_disabled']                               = 'Disabled'; 
 $_['text_debug_enabled']                                = 'Enabled'; 
 //replace name
-$_['text_debug_help']                                   = 'API requests and responses will be logged in the myOpenCart error log. Use this for only for debugging and development purposes.';
+$_['text_debug_help']                                   = 'API requests and responses will be logged in the iTechDataHK error log. Use this for only for debugging and development purposes.';
 $_['text_debug_label']                                  = 'Debug Logging';
 $_['text_delay_capture_help']                           = 'Only authorize transactions or perform charges automatically';
 $_['text_delay_capture_label']                          = 'Transaction type';

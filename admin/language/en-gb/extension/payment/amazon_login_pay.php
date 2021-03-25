@@ -104,7 +104,7 @@ $_['help_pay_mode']					= 'Choose Payment if you would like the payment to get c
 $_['help_checkout']					= 'Should payment button also login customer';
 $_['help_capture_status']			= 'Choose the order status that will trigger automatic capture of an authorized payment.';
 //replace opencart name
-$_['help_capture_oc_status']        = 'Choose the order status that the order will get once it is captured in Amazon Seller Central or from the capture function in myOpenCart Admin > %s > %s > %s.';
+$_['help_capture_oc_status']        = 'Choose the order status that the order will get once it is captured in Amazon Seller Central or from the capture function in iTechDataHK Admin > %s > %s > %s.';
 $_['help_ipn_url']					= 'Set this as you merhcant URL in Amazon Seller Central';
 $_['help_ipn_token']				= 'Make this long and hard to guess. The resulting IPN URL must not be longer than 150 characters.';
 $_['help_minimum_total']			= 'This must be above zero';

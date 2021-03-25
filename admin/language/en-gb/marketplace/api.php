@@ -1,12 +1,12 @@
 <?php
 // Heading
 //replace name
-$_['heading_title']    = 'myOpenCart Marketplace API';
+$_['heading_title']    = 'iTechDataHK Marketplace API';
 
 // Text
 $_['text_success']     = 'Success: You have modified your API information!';
 //replace name
-$_['text_signup']      = 'Please enter your myOpenCart API information which you can obtain <a href="https://www.opencart.com/index.php?route=account/store" target="_blank" class="alert-link">here</a>.';
+$_['text_signup']      = 'Please enter your iTechDataHK API information which you can obtain <a href="https://www.opencart.com/index.php?route=account/store" target="_blank" class="alert-link">here</a>.';
 
 // Entry
 $_['entry_username']   = 'Username';

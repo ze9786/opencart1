@@ -6,3 +6,6 @@
 2021-02-04 11:07:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\opencart-3.0.3.7\system\library\mail\mail.php on line 77
 2021-03-23 4:49:10 - PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
 2021-03-23 4:49:10 - PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
+2021-03-24 15:24:22 - PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=71 in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
+2021-03-24 15:24:22 - PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=720 in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
+2021-03-24 15:24:22 - PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
