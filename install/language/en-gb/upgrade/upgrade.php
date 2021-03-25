@@ -14,7 +14,8 @@ $_['text_user']       = 'Goto Admin -> Users -> User Groups and Edit the Top Adm
 $_['text_setting']    = 'Goto Admin and Edit the main System Settings. Update all fields and click save, even if nothing changed.';
 $_['text_store']      = 'Load the store front & press Ctrl+F5 twice to force the browser to update the css changes.';
 $_['text_progress']   = 'Patch %s has been applied (%s of %s)';
-$_['text_success']    = 'Congratulations! You have successfuly upgraded your OpenCart installation!';
+//rename
+$_['text_success']    = 'Congratulations! You have successfuly upgraded your myOpenCart installation!';
 
 // Entry
 $_['entry_progress']  = 'Progress';
