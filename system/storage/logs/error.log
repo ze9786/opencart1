@@ -9,3 +9,4 @@
 2021-03-24 15:24:22 - PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=71 in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
 2021-03-24 15:24:22 - PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=720 in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
 2021-03-24 15:24:22 - PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7
+2021-03-29 5:16:14 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'opencart1' in /opt/lampp/htdocs/opencart1/system/library/db/mysqli.php on line 7

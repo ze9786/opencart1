@@ -39,7 +39,21 @@
       </div>
     </div>
     <hr>
-    <p>{{ powered }}</p>
+   {# add whatsapp API call #}
+    <div class="row">
+      <div class="col-sm-4">
+          <p>{{ powered }}</p>
+      </div>
+      <div class="col-sm-6">
+      </div>
+      {# set it as anchor text with WhatsApp Chat textview, if the user click the textview, it will redirect to whatsapp chat page.
+      user can simply click the chat button on whatsapp API page to start chatting with the corresponding phone number #}
+      <div class="col-sm-2">
+      <a href="https://api.whatsapp.com/send?phone=85212344567&text=hi! I have a question?">WhatsApp Chat</a>
+      </div>
+    </div>
+  </div>
+
   </div>
 </footer>
 {% for style in styles %}
