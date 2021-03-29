@@ -1,69 +1,104 @@
-<footer>
-  <div class="container">
-    <div class="row">
-      {% if informations %}
-      <div class="col-sm-3">
-        <h5>{{ text_information }}</h5>
-        <ul class="list-unstyled">
-         {% for information in informations %}
-          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-      <div class="col-sm-3">
-        <h5>{{ text_service }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ contact }}">{{ text_contact }}</a></li>
-          <li><a href="{{ return }}">{{ text_return }}</a></li>
-          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>{{ text_extra }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
-          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
-          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
-          <li><a href="{{ special }}">{{ text_special }}</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>{{ text_account }}</h5>
-        <ul class="list-unstyled">
-          <li><a href="{{ account }}">{{ text_account }}</a></li>
-          <li><a href="{{ order }}">{{ text_order }}</a></li>
-          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
-          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
-        </ul>
-      </div>
-    </div>
-    <hr>
-   {# add whatsapp API call #}
-    <div class="row">
-      <div class="col-sm-4">
-          <p>{{ powered }}</p>
-      </div>
-      <div class="col-sm-6">
-      </div>
-      {# set it as anchor text with WhatsApp Chat textview, if the user click the textview, it will redirect to whatsapp chat page.
+{# add whatsapp API call #}
+{# set it as anchor text with WhatsApp Chat textview, if the user click the textview, it will redirect to whatsapp chat page.
       user can simply click the chat button on whatsapp API page to start chatting with the corresponding phone number #}
-      <div class="col-sm-2">
-      <a href="https://api.whatsapp.com/send?phone=85212344567&text=hi! I have a question?">WhatsApp Chat</a>
-      </div>
-    </div>
-  </div>
+	<style>
+.float {
+	position: fixed;
+  opacity: 0.6;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
 
-  </div>
-</footer>
-{% for style in styles %}
-<link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}" />
-{% endfor %}
-{% for script in scripts %}
-<script src="{{ script }}" type="text/javascript"></script>
-{% endfor %}
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//-->
+.my-float {
+	margin-top: 16px;
+}
+</style>
+	<a href="https://api.whatsapp.com/send?phone=85212344567&text=hi! I have a question?" class="float" target="_blank"> <i class="fa fa-whatsapp my-float" style="font-size: 1em;"></i>
+</a>
+<footer>
+	<div class="container">
+		<div class="row">
+			{% if informations %}
+				<div class="col-sm-3">
+					<h5>{{ text_information }}</h5>
+					<ul class="list-unstyled">
+						{% for information in informations %}
+							<li>
+								<a href="{{ information.href }}">{{ information.title }}</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
+			<div class="col-sm-3">
+				<h5>{{ text_service }}</h5>
+				<ul class="list-unstyled">
+					<li>
+						<a href="{{ contact }}">{{ text_contact }}</a>
+					</li>
+					<li>
+						<a href="{{ return }}">{{ text_return }}</a>
+					</li>
+					<li>
+						<a href="{{ sitemap }}">{{ text_sitemap }}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<h5>{{ text_extra }}</h5>
+				<ul class="list-unstyled">
+					<li>
+						<a href="{{ manufacturer }}">{{ text_manufacturer }}</a>
+					</li>
+					<li>
+						<a href="{{ voucher }}">{{ text_voucher }}</a>
+					</li>
+					<li>
+						<a href="{{ affiliate }}">{{ text_affiliate }}</a>
+					</li>
+					<li>
+						<a href="{{ special }}">{{ text_special }}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<h5>{{ text_account }}</h5>
+				<ul class="list-unstyled">
+					<li>
+						<a href="{{ account }}">{{ text_account }}</a>
+					</li>
+					<li>
+						<a href="{{ order }}">{{ text_order }}</a>
+					</li>
+					<li>
+						<a href="{{ wishlist }}">{{ text_wishlist }}</a>
+					</li>
+					<li>
+						<a href="{{ newsletter }}">{{ text_newsletter }}</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p>{{ powered }}</p>
+	</footer>
+	{% for style in styles %}
+		<link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}"/>
+	{% endfor %}
+	{% for script in scripts %}
+		<script src="{{ script }}" type="text/javascript"></script>
+	{% endfor %}
+	<!--
+		OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+		Please donate via PayPal to donate@opencart.com
+		//-->
 </body></html>
