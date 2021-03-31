@@ -8,13 +8,14 @@ class ControllerCommonColumnLeft extends Controller {
 			// Level 2 can not have children
 
 			// Menu
-			$data['menus'][] = array(
-				'id'       => 'menu-dashboard',
-				'icon'	   => 'fa-dashboard',
-				'name'	   => $this->language->get('text_dashboard'),
-				'href'     => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
-				'children' => array()
-			);
+			//comment to hide the dashboard item from left navigation bar
+			// $data['menus'][] = array(
+			// 	'id'       => 'menu-dashboard',
+			// 	'icon'	   => 'fa-dashboard',
+			// 	'name'	   => $this->language->get('text_dashboard'),
+			// 	'href'     => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+			// 	'children' => array()
+			// );
 
 			// Catalog
 			$catalog = array();

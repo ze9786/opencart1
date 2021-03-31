@@ -81,7 +81,8 @@ class ControllerCommonDashboard extends Controller {
 		}
 
 		if (DIR_STORAGE == DIR_SYSTEM . 'storage/') {
-			$data['security'] = $this->load->controller('common/security');
+			//remove / hide the security dialog box when logging in each time
+			$data['security'] = '';
 		} else {
 			$data['security'] = '';
 		}
