@@ -4,7 +4,7 @@ class ControllerCommonForgotten extends Controller {
 
 	public function index() {
 		if ($this->user->isLogged() && isset($this->request->get['user_token']) && ($this->request->get['user_token'] == $this->session->data['user_token'])) {
-			$this->response->redirect($this->url->link('common/dashboard', '', true));
+			$this->response->redirect($this->url->link('catalog/category', '', true));
 		}
 
 		if (!$this->config->get('config_password')) {
@@ -35,7 +35,7 @@ class ControllerCommonForgotten extends Controller {
 
 		$data['breadcrumbs'][] = array(
 			'text' => $this->language->get('text_home'),
-			'href' => $this->url->link('common/dashboard', '', true)
+			'href' => $this->url->link('catalog/category', '', true)
 		);
 
 		$data['breadcrumbs'][] = array(

@@ -140,7 +140,7 @@ class ControllerExtensionAdvertiseGoogle extends Controller {
         $data['breadcrumbs']   = array();
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_home'),
-            'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+            'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true),
         );
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_extensions'),
@@ -398,7 +398,7 @@ class ControllerExtensionAdvertiseGoogle extends Controller {
         $data['breadcrumbs']   = array();
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_home'),
-            'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+            'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true),
         );
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_extensions'),
@@ -532,7 +532,7 @@ class ControllerExtensionAdvertiseGoogle extends Controller {
         $data['breadcrumbs']   = array();
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_home'),
-            'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+            'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true),
         );
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_extensions'),
@@ -641,7 +641,7 @@ class ControllerExtensionAdvertiseGoogle extends Controller {
         $data['breadcrumbs']   = array();
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_home'),
-            'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+            'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true),
         );
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_extensions'),
@@ -804,7 +804,7 @@ class ControllerExtensionAdvertiseGoogle extends Controller {
         $data['breadcrumbs']   = array();
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_home'),
-            'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+            'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true),
         );
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_extensions'),
@@ -1249,7 +1249,7 @@ class ControllerExtensionAdvertiseGoogle extends Controller {
         $data['breadcrumbs']   = array();
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_home'),
-            'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+            'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true),
         );
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_extensions'),
@@ -1362,7 +1362,7 @@ class ControllerExtensionAdvertiseGoogle extends Controller {
         $data['breadcrumbs']   = array();
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_home'),
-            'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+            'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true),
         );
         $data['breadcrumbs'][] = array(
             'text' => $this->language->get('text_extensions'),

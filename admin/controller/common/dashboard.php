@@ -1,7 +1,7 @@
 <?php
 class ControllerCommonDashboard extends Controller {
 	public function index() {
-		$this->load->language('common/dashboard');
+		$this->load->language('catalog/category');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
@@ -11,12 +11,12 @@ class ControllerCommonDashboard extends Controller {
 
 		$data['breadcrumbs'][] = array(
 			'text' => $this->language->get('text_home'),
-			'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true)
+			'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true)
 		);
 
 		$data['breadcrumbs'][] = array(
 			'text' => $this->language->get('heading_title'),
-			'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true)
+			'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true)
 		);
 
 		// Check install directory exists
@@ -98,6 +98,6 @@ class ControllerCommonDashboard extends Controller {
 			$this->model_localisation_currency->refresh();
 		}
 
-		$this->response->setOutput($this->load->view('common/dashboard', $data));
+		$this->response->setOutput($this->load->view('catalog/category', $data));
 	}
 }
