@@ -28,3 +28,5 @@ define('DB_PASSWORD', 'zzzz');
 define('DB_DATABASE', 'opencart1');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
+
+//change opencart to iTechDataHK, including links and view names
