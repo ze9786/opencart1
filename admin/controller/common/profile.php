@@ -76,7 +76,7 @@ class ControllerCommonProfile extends Controller {
 
 		$data['breadcrumbs'][] = array(
 			'text' => $this->language->get('text_home'),
-			'href' => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true)
+			'href' => $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true)
 		);
 
 		$data['breadcrumbs'][] = array(
@@ -86,7 +86,7 @@ class ControllerCommonProfile extends Controller {
 
 		$data['action'] = $this->url->link('common/profile', 'user_token=' . $this->session->data['user_token'], true);
 
-		$data['cancel'] = $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true);
+		$data['cancel'] = $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'], true);
 
 		if ($this->request->server['REQUEST_METHOD'] != 'POST') {
 			$user_info = $this->model_user_user->getUser($this->user->getId());

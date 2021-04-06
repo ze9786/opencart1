@@ -29,7 +29,7 @@ $_['action_pre_action'] = array(
 );
 
 // Actions
-$_['action_default'] = 'common/dashboard';
+$_['action_default'] = 'catalog/category';
 
 // Action Events
 $_['action_event'] = array(
